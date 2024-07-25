@@ -1,6 +1,7 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 // import './App.css';
-import TodoFeature from './features/Todo/pages';
+import AlbumFeature from './features/Album/pages';
+// import TodoFeature from './features/Todo/pages';
 
 function App() {
   return (
@@ -9,7 +10,9 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
 
       </header> */}
-      <TodoFeature />
+      {/* <TodoFeature /> */}
+
+      <AlbumFeature />
     </div>
   );
 }
